@@ -27,7 +27,7 @@
   src: url("../fonts/bankgthd.ttf"); }
 
 body {
-  background-color: #202020;
+  background-image: url("../images/grok_image_akfqhk.jpg");
   font-family: EurostileStandard;
   color: white;
   overflow-x: hidden;
