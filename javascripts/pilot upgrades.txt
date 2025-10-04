@@ -1,0 +1,257 @@
+
+        
+        
+		
+		
+        		
+		
+
+        {
+            name: "Tracking Fob",
+            id: 454,
+            points: 3,
+            slot: "Illicit",
+            max_per_squad: 3,
+            restrictions: [
+                ["Keyword", "Bounty Hunter"],
+            ]
+        },
+        {
+            name: "Notorious",
+            id: 455,
+            points: 7,
+            charge: 2,
+            recurring: 1,
+            slot: "Talent",
+            unique: !0,
+            restrictions: [
+                ["Equipped", "Illicit"],
+            ]
+        },
+        {
+            name: "Enduring",
+            id: 456,
+            points: 5,
+            slot: "Talent",
+        },
+        {
+            name: "IG-11",
+            id: 457,
+            points: 6,
+            slot: "Crew",
+            unique: !0,
+            faction: "Scum and Villainy",
+            modifier_func: function (a) {
+                        return a.actions.push("Calculate");
+                    },
+			},
+        {
+            name: "Greef Karga",
+            id: 458,
+            points: 6,
+            slot: "Crew",
+            unique: !0,
+            faction: "Scum and Villainy",
+            modifier_func: function (a) {
+                        return a.actions.push("R-Coordinate");
+                    },
+			},
+        {
+            name: "Kuiil",
+            id: 459,
+            points: 4,
+            slot: "Crew",
+            unique: !0,
+            faction: "Scum and Villainy",
+            restrictions: [
+                ["Base", "Medium", "Large"],
+            ]
+        },
+        {
+            name: "Peli Motto",
+            id: 460,
+            points: 3,
+            slot: "Crew",
+            unique: !0,
+            faction: "Scum and Villainy",
+            restrictions: [
+                ["Base", "Medium", "Large"],
+            ]
+        },
+        {
+            name: "Migs Mayfeld",
+            id: 461,
+            points: 4,
+            slot: "Gunner",
+            unique: !0,
+            faction: ["Scum and Villainy","Galactic Empire"],
+        },
+        {
+            name: "Burnout Thrusters",
+            id: 462,
+            points: 6,
+            slot: "Modification",
+            charge: 1,
+            faction: ["Scum and Villainy"],
+            restrictions: [
+                ["Base", "Small", "Medium"],
+            ]
+            modifier_func: function (a) {
+                        return a.actions.push("Slam");
+                    },
+			},
+        {
+            name: "Hotshot Tail Blaster"
+            id: 463
+            points: 2
+            attackb: 2
+            range: """0-1"""
+            rangebonus: !0
+            charge: 2
+            slot: "Illicit"
+            restrictions: [
+                ["Base", "Medium", "Large"]
+            ]
+        },
+        {
+            name: "Combat Boarding Tube"
+            id: 464
+            points: 0
+            slot: "Command"
+            ship: "Gauntlet Fighter"
+            restrictions: [
+                ["Slot", "Configuration"]
+                ["Base", "Standard"]
+            ]
+            also_occupies_upgrades: [ "Configuration" ]
+        },
+        {
+            name: "Drop-Seat Bay"
+            id: 465
+            points: 5
+            pointsxwa: 0
+            slot: "Modification"
+            ship: "Gauntlet Fighter"
+            unequips_upgrades: [
+                'Device'
+            ]
+            also_occupies_upgrades: [
+                'Device'
+            ]
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                },
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                },
+            ]
+        },
+        {
+            name: "Mandalorian Super Commandos"
+            id: 466
+            points: 8
+            slot: "Crew"
+            unique: !0
+            charge: 2
+            faction: "Scum and Villainy"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Mandalorian Super Commandos'''.canonicalize()
+        },
+        {
+            name: "Imperial Super Commandos"
+            id: 467
+            points: 8
+            slot: "Crew"
+            unique: !0
+            charge: 2
+            faction: "Galactic Empire"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Imperial Super Commandos'''.canonicalize()
+        },
+        {
+            name: "Nite Owl Commandos"
+            id: 468
+            points: 8
+            slot: "Crew"
+            unique: !0
+            charge: 2
+            faction: "Galactic Republic"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Nite Owl Commandos'''.canonicalize()
+        },
+        {
+            name: "Death Watch Commandos"
+            id: 469
+            points: 8
+            slot: "Crew"
+            unique: !0
+            charge: 2
+            faction: "Separatist Alliance"
+            restrictions: [
+                ["Slot", "Crew"]
+                ["Base", "Non-Small"]
+            ]
+            also_occupies_upgrades: [ "Crew" ]
+            applies_condition: '''Death Watch Commandos'''.canonicalize()
+        },
+        {
+            name: "Proton Cannons"
+            id: 470
+            slot: "Cannon"
+            points: 4
+            pointsxwa: 5
+            attackbull: 4
+            range: """2-3"""
+            charge: 2
+            recurring: 1
+            restrictions: [
+                ["Slot", "Cannon"]
+            ]
+            also_occupies_upgrades: [ "Cannon" ]
+        },
+        {
+            name: "Homing Torpedoes"
+            id: 471
+            slot: "Torpedo"
+            points: 5
+            pointsxwa: 4
+            attack: 4
+            range: """1-2"""
+            rangebonus: !0
+            charge: 2
+        },
+        {
+            name: "Xanadu Blood"
+            id: 472
+            slot: "Title"
+            unique: !0
+            points: 0
+            ship: ["Rogue-class Starfighter"]
+            modifier_func: (stats) ->
+                stats.actions.push 'R-Cloak' if 'R-Cloak' not in stats.actions
+            confersAddons: [
+                {
+                    type: exportObj.Upgrade
+                    slot: "Crew"
+                },
+                {
+                    type: exportObj.Upgrade
+                    slot: "Device"
+                },
+            ]
+        },
