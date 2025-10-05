@@ -1,0 +1,17 @@
+
+
+%LINEBREAK% <strong>Dead to Rights:</strong> While you perform an attack, if the defender is in your %BULLSEYEARC%, defense dice cannot be modified using green tokens."
+
+
+%LINEBREAK% <strong>Formed Up:</strong>At the end of the End Phase, if there is another friendly <strong>TIE/ln Fighter</strong> ship at range 0-1, you may remove 1 stress token.
+%LINEBREAK%<strong>Nimble Bomber:</strong> If you would drop a device using a %STRAIGHT% template, you may use a %BANKLEFT% or %BANKRIGHT% template of the same speed instead.
+
+
+%LINEBREAK% <strong>Hope:</strong> After another friendly ship at range 0-3 is destroyed, you may perform a %FOCUS% or %BOOST% action.
+
+%LINEBREAK% <strong>Solo:</strong>While you defend or perform an attack, if there are no other friendly ships at range 0-1, you may spend 1 %CHARGE% to reroll one of your dice.			
+%LINEBREAK% <strong>Born for This:</strong>	While another friendly ship at range 0-2 defends, if you are not strained, it may spend your focus and evade tokens as if that ship has them. If it does, you gain 1 strain token.			
+%LINEBREAK% <strong>Modified for Organics:</strong>This ship is not affected by the <strong>Standardized</strong> restriction. Reduce the difficulty of your speed 2 and 3 bank [%BANKLEFT% or %BANKRIGHT%] maneuvers. Increase the difficulty of your speed 3 turn [%TURNLEFT% or %TURNRIGHT%] maneuvers.					
+%LINEBREAK% <strong>Versatile Frame:</strong>You can equip 1 %TORPEDO% or %MISSILE% upgrade. While your revealed maneuver is blue, add white %BOOST% to your action bar.
+%LINEBREAK% <strong>High Stakes:</strong>After you perform a red action, you may roll an attack die. On a %HIT%/%CRIT% result, remove 1 stress.
+%LINEBREAK% <strong>Sensitive Controls:</strong>Replace your <strong>Autothrusters</strong> ship ability with the following: %LINEBREAK%<strong>Sensitive Controls:</strong> During the System Phase, you may perform a red %BARRELROLL% or red %BOOST% action.				
